@@ -1,0 +1,11 @@
+controller:
+  allowEmptyIngressHost: true
+
+  service:
+    type: NodePort
+
+    httpPort:
+      nodePort: 30080
+
+    httpsPort:
+      nodePort: 30443
