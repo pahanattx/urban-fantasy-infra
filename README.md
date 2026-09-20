@@ -248,3 +248,29 @@ The infrastructure was designed as a portfolio and learning environment.
 
 Resources can be stopped or destroyed when not required to prevent unnecessary AWS charges.
 
+
+## Project Evidence
+
+### Terraform Provisioning
+![Terraform EKS provisioning](docs/images/23-eks-cluster-nodegroup-apply.png)
+
+### EKS Multi-Service Deployment
+![EKS multi-service workloads](docs/images/36-eks-multiservice-running.png)
+
+### Jenkins CI and GitOps Automation
+![Jenkins pipeline success](docs/images/34-jenkins-multiservice-gitops-success.png)
+
+### ArgoCD Synchronization
+![ArgoCD synced and healthy](docs/images/29-argocd-synced-healthy.png)
+
+### NGINX Ingress and NodePort Routing
+![NGINX ingress NodePort](docs/images/37-nginx-ingress-nodeport.png)
+
+### Status API
+![Status API healthy response](docs/images/35-status-api-live.png)
+
+### Monitoring
+![Grafana monitoring dashboard](docs/images/21-grafana-node-exporter-dashboard.png)
+
+### Keyless EC2 Administration
+![AWS SSM keyless access](docs/images/38-ssm-keyless-access.png)
